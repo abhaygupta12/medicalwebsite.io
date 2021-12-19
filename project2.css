@@ -1,0 +1,89 @@
+<style> 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,900&display=swap');
+</style>
+   /* nav CSS */
+*
+{
+    font-family:" poppins";
+    padding: 0px;
+    margin: 0px;
+}
+nav
+{
+     display: flex;
+ justify-content: space-between; 
+    align-items: center;
+    height: 70px;
+    margin: 0px 50px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 0px 15px;
+}
+nav ul li a
+{
+    color:#666666;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+#btn
+{
+    margin-top: 20px;
+    color: #fff;
+    background-color: #00a3c8;
+    border-color: #00a3c8;
+    font-size: 0.915rem;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    padding: 12px 24px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    
+    text-decoration: none;
+}
+  /* mainpage */
+  #mainpage
+  {
+      background-image: url("img/Doctors.jpg");
+      height: calc(100vh - 70px);
+      background-repeat: no-repeat;
+      background-size:cover;
+  }
+ 
+  #mainpage h1
+  {
+    color:#004861;  
+    font-size: 3.35rem;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
+  #mainpage p
+  {
+    color:#333333;  
+    font-size: 1.066rem;
+}
+#mainpage a
+{
+    margin-top: 20px;
+    color: #fff;
+    background-color: #00a3c8;
+    border-color: #00a3c8;
+    font-size: 0.915rem;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    padding: 12px 24px;
+    border: 2px solid transparent;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.content
+{
+    padding: 121px 0px 0px 705px;
+}
+  
